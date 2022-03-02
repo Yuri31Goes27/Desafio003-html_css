@@ -29,6 +29,7 @@ body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+
 header{
     background-image: linear-gradient(to bottom ,var(--cor03), var(--cor05) );
     min-width: 150px;
@@ -88,12 +89,42 @@ main h1 {
 }
 main h2  {
     font-family: var(--fonte-android);
+    color: var(--cor04);
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    text-indent: 6px;
+    border-radius: 5px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+    text-indent: 30px;
+    
+}
+main strong{
+    font-weight: bold;
+    color: var(--cor04);
+    
+}  
+main a {
+    text-decoration: none;
+    color: var(--cor05);
+    background-color: #83e1ad;
+    padding: 2px 6px;
+    border-radius: 5px;
+
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: #2fa866;
+    transition: 0.5s;
 }
 main img{
     width: 100%;
 }
 main img.pequena{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
@@ -109,4 +140,9 @@ footer > a {
 }
 footer > a:hover{
     color: #3ddc84;
+    background-color: var(--cor04);
+    padding: 2px 5px;
+    border-radius: 7px;
+    text-decoration: underline;
+    transition: 0.5s;
 }
